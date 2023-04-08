@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/action_gps"
+        android:icon="@mipmap/ic_gps"
+        android:title="GPS Time Sync"
+        app:showAsAction="always"/>
+    <item android:id="@+id/action_settings"
+        android:icon="@mipmap/ic_settings"
+        android:title="Settings"
+        app:showAsAction="always"/>
+    <item android:id="@+id/action_help"
+        android:icon="@mipmap/ic_help"
+        android:title="Help"
+        app:showAsAction="always"/>
+</menu>

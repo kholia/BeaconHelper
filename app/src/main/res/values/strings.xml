@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Beacon Helper</string>
+
+    <string name="nice_html">
+<![CDATA[
+<p>Beacon Helper.</p>
+]]>
+    </string>
+</resources>

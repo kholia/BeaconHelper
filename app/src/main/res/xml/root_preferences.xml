@@ -1,0 +1,21 @@
+<!--
+  https://developer.android.com/reference/android/preference/PreferenceScreen
+  -->
+
+<PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory
+        app:iconSpaceReserved="false"
+        app:title="Internals">
+
+        <EditTextPreference
+            app:defaultValue="0.0"
+            app:iconSpaceReserved="false"
+            app:key="time_delta"
+            app:title="Time Delta (seconds.millis)"
+            app:useSimpleSummaryProvider="true" />
+
+    </PreferenceCategory>
+
+</PreferenceScreen>
